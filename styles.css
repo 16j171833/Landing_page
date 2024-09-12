@@ -1,0 +1,232 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+	background: url('C:/Users/User/Desktop/mentormind/home.jpg');
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+	font-family:Forte;
+	color: green;
+	  text-shadow: 2px 2px 4px #ffffff;
+
+	
+}
+
+.cta-button {
+    display: inline-block;
+    background: #75eb71;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cta-button.secondary {
+    background: #3f853d;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Product Highlights */
+.product-highlights {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-highlights h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.product-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #3f853d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Benefits Section */
+.benefits {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.benefits-container {
+	
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.benefit img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.benefit h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* Custom Footer Styles */
+.custom-footer {
+    background-color: #01602C;  /* Matches the green background from the image */
+    color: #fff;  /* White font color */
+    padding: 20px;
+    text-align: right;
+    font-family:Arial Rounded MT Bold; /* Assuming the font is Arial */
+}
+
+.footer-logo {
+    max-width: 150px; /* Adjust the logo size */
+    margin-bottom: 10px;
+}
+
+.footer-address {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.footer-phone {
+    color: #FFCC00;  /* Yellow phone number color */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 30px;  /* Adjust icon size */
+    filter: invert(80%) sepia(0%) saturate(7500%) hue-rotate(105deg) brightness(100%) contrast(100%); /* Matching color to green/yellow */
+}
+
+
+
